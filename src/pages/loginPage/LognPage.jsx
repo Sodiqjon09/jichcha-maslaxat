@@ -1,7 +1,28 @@
-i`mport { useEffect } from "react";
+import { useEffect } from "react";
 
 export default function LoginPage() {
- `
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://kit.fontawesome.com/64d58efce2.js";
+    script.crossOrigin = "anonymous";
+    document.body.appendChild(script);
+
+    const sign_in_btn = document.querySelector("#sign-in-btn");
+    const sign_up_btn = document.querySelector("#sign-up-btn");
+    const container = document.querySelector(".container");
+
+    sign_up_btn.addEventListener("click", () => {
+      container.classList.add("sign-up-mode");
+    });
+
+    sign_in_btn.addEventListener("click", () => {
+      container.classList.remove("sign-up-mode");
+    });
+
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
 
   return (
     <div className="container">
