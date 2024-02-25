@@ -1,5 +1,9 @@
-import ComponentsMainPage from '../components/ComponentsMainPage'
+import ComponentsMainPage from "../components/ComponentsMainPage";
 
 export default function UserMainPage() {
-  return <ComponentsMainPage />;
+  return (
+    <div>
+      <ComponentsMainPage />
+    </div>
+  );
 }
