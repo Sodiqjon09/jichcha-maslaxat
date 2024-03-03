@@ -16,7 +16,7 @@ export const navbarDataText = [
   },
   {
     id: 4,
-    name: "Pricing",
+    name: "news",
     link: "/*",
   },
   {
