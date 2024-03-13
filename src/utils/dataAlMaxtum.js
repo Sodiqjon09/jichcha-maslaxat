@@ -1,6 +1,6 @@
 export const dataAlMaxtunThemeSections = [
-  { id: 1, dataNameText: "Full-page-screen1" },
-  { id: 2, dataNameText: "Full-page-screen2" },
-  { id: 3, dataNameText: "Full-page-screen3" },
-  { id: 4, dataNameText: "Full-page-screen4" },
+  { id: 1, dataNameText: "Page-screen 1" },
+  { id: 2, dataNameText: "Page-screen 2" },
+  { id: 3, dataNameText: "Page-screen 3" },
+  { id: 4, dataNameText: "Page-screen 4" },
 ];

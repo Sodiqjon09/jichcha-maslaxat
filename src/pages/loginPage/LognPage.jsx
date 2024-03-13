@@ -1,6 +1,6 @@
 
 export default function LognPage() {
   return (
-    <div>LognPage</div>
+    <div className="pt-[100px] px-[60px]">LognPage</div>
   )
 }
